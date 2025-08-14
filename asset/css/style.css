@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins";
+}
+/* ==============Các thành phần dùng chung========= */
+a {
+  text-decoration: none;
+  /* Loại bỏ gạch chân ở thẻ a */
+}
+.main-content {
+  width: 1171px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 68px;
+  min-width: 186px;
+  padding: 0 41px;
+  border-radius: 14px;
+  background: #1ebfc1;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
+}
+/*=======================header ============== */
+.header {
+  background: #ffffff;
+}
+.header.fixed {
+  z-index: 1;
+  position: sticky;
+  top: -40px;
+  /* Ngưỡng để dừng lại khi cuộn, bắt buộc phải có */
+}
+.header .body {
+  display: flex;
+  padding: 52px 0 8px;
+  align-items: center;
+}
+.nav {
+  margin-left: auto;
+}
+.nav ul {
+  display: flex;
+}
+.nav a {
+  color: #2f3a3b;
+  font-size: 1.6rem;
+  padding: 8px 19.5px;
+}
+.action .action-link:hover,
+.nav a:hover {
+  color: #2f3a3b;
+  text-shadow: 1px 0 0 currentColor;
+}
+.action .action-link {
+  color: #494949;
+  text-align: center;
+  margin-left: 157.5px;
+}
+.action .action-btn {
+  margin-left: 24px;
+  display: inline-block;
+  min-width: 108px;
+  line-height: 48px;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  padding: 0 16px;
+  color: #1ebfc1;
+  text-align: center;
+  font-weight: 600;
+}
+.action .action-btn:hover {
+  background: #1ebfc1;
+  color: #fff;
+  transition: 0.3s;
+}
