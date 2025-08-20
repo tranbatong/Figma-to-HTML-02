@@ -342,3 +342,116 @@ a {
 .feature .item:nth-child(3) .item-desc {
   max-width: 224px;
 }
+/* ====================== làm phần course ========= */
+.course {
+  margin-top: 10px;
+}
+.course .body-course {
+  padding: 60px 0 184px;
+  /* background: #1ebfc1; */
+}
+.course .heading-lv2 {
+  margin-top: 18px;
+}
+.course .rowtop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.course .all-course {
+  color: #1ebfc1;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  /* Gạch chân dưới chữ */
+  text-decoration-style: solid;
+  /* Xác định nét gạch, solid là nét đứt */
+  text-decoration-thickness: auto;
+  /* Xác định độ dày của nét gạch */
+  text-underline-offset: auto;
+  /* Khoảng cách gạch chân so với chữ */
+}
+.course .desc {
+  max-width: 525px;
+  margin-top: 19px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.78; /* 177.778% */
+}
+.course .body-course .course-list {
+  margin-top: 79px;
+  gap: 47px;
+  display: flex;
+}
+.course .course-list .heading-lv3 {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.course .course-item {
+  position: relative;
+}
+.course .course-item .thumb {
+  width: 359px;
+  height: 393px;
+  object-fit: cover;
+  border-radius: 8px;
+  opacity: 0.7;
+  background: #d0efed;
+}
+.course .course-item .course-detail {
+  position: absolute;
+  top: 322px;
+  left: 17px;
+  width: 325px;
+  height: 195px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 16px 90px 0 rgba(0, 0, 0, 0.05);
+}
+.course .course-detail .wrap-item {
+  padding: 18px 25px 0;
+}
+.course .course-detail .cost {
+  margin-top: 16px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-style: normal;
+  line-height: normal;
+}
+.course .course-detail .cost span {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.course .course-detail .desc {
+  margin-top: 6px;
+  color: #9da6a5;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: normal;
+}
+.course .course-detail .static {
+  margin-top: 16px;
+  margin-left: -10px;
+  color: #9da6a5;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: normal;
+}
+.course .course-detail .static span::before {
+  margin: 0 10px;
+  display: inline-block;
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #1ebfc1;
+  border-radius: 50%;
+}
