@@ -455,3 +455,180 @@ a {
   background-color: #1ebfc1;
   border-radius: 50%;
 }
+/* ==================làm phần countdown ===============*/
+.countdown {
+  margin-top: 81px;
+}
+.countdown .body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 862px;
+}
+.countdown .countdown-list {
+  display: flex;
+  justify-content: space-between;
+}
+.countdown .countdown-item .static {
+  color: #0d1111;
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.countdown .countdown-item .desc {
+  margin-top: 11px;
+  color: #767e7e;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+/* ================= làm phần feedback=========== */
+.feedback {
+  margin-top: 227px;
+}
+.feedback .body {
+  position: relative;
+  padding: 37px 0;
+  /* background: #1ebfc1; */
+}
+.feedback blockquote {
+  margin-top: 27px;
+  max-width: 419px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 1.5; /* 150% */
+}
+.feedback .desc {
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+.feedback .desc::before {
+  content: "";
+  display: inline-block;
+  margin-right: 2px;
+  width: 8px;
+  height: 2px;
+  background: #070707;
+}
+.feedback .desc strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: normal;
+}
+.feedback .feedback-cta {
+  display: flex;
+  margin-top: 52px;
+  margin-left: -30px;
+}
+.feedback .feedback-cta .cta-btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #2ac9bf;
+}
+.feedback .feedback-cta .cta-btn-group:hover {
+  opacity: 0.9;
+  border: 1px solid rgba(207, 20, 195, 0.219);
+  transition: 0.5s;
+}
+.feedback .ava-fb {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+}
+.feedback .avar-fb-1 {
+  top: 0;
+  left: 635px;
+  width: 92px;
+  height: 92px;
+  background: #1ebfc1;
+}
+.feedback .avar-fb-2 {
+  right: 0;
+  top: 18px;
+  width: 110px;
+  height: 110px;
+}
+.feedback .avar-fb-3 {
+  left: 746px;
+  top: 107px;
+  width: 235px;
+  height: 235px;
+}
+.feedback .avar-fb-4 {
+  left: 491px;
+  top: 258px;
+}
+.feedback .avar-fb-5 {
+  left: 703px;
+  bottom: 0;
+}
+.feedback .avar-fb-6 {
+  right: 32px;
+  bottom: 29px;
+}
+/* ================== làm phần admit===============*/
+.admit {
+  margin-top: 130px;
+  padding: 76px 135px 88px;
+  background: #def6f5;
+}
+.admit .body {
+  display: flex;
+  align-items: center;
+}
+.admit .desc {
+  margin-top: 18px;
+  margin-right: 433px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+/* ================== làm phần footer============== */
+.footer {
+  padding: 130px 135px 135px;
+}
+.footer .row-top {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .row-top .title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer .row-top .list li {
+  margin-top: 18px;
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+.footer .list li:first-child {
+  margin-top: 26px;
+}
+.footer .list-item5 a {
+  display: flex;
+  align-items: center;
+}
+.footer .list-item5 .social-icon {
+  margin-right: 9px;
+}
+.footer .cpr-block {
+  margin-top: 80px;
+  text-align: center;
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: normal;
+}
